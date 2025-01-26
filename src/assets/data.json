@@ -1,0 +1,59 @@
+{
+  "eventMetadata": {
+    "num_events": 5,
+    "num_pending_events": 3,
+    "last_database_update": "2024-9-10"
+  },
+  "events": [
+    {
+      "id": "d62a9342-8e1f-463d-bdc6-ddf15357dec7",
+      "date": "2024-07-29T10:00:00",
+      "beach": "North Beach",
+      "title": "North Beach Cleanup",
+      "description": "Join us for a community beach cleanup at North Beach in Point Reyes on Saturday, July 29th, and help preserve our beautiful coastline!",
+      "capacity": 200,
+      "is_ride_provided": true,
+      "image_url": "https://californiathroughmylens.com/wp-content/uploads/2023/03/point-reyes-day-trip-1.jpg"
+    },
+    {
+      "id": "f35e9a98-db4d-4ab5-b59a-feb587135218",
+      "date": "2024-10-27T03:00:00",
+      "beach": "Ocean Beach",
+      "title": "Keep Ocean Beach Clean!",
+      "description": "Clean up at Ocean Beach in San Francisco.",
+      "capacity": 300,
+      "is_ride_provided": false,
+      "image_url": "https://www.parksconservancy.org/sites/default/files/styles/basic/public/resource-gallery/OCBE_121021_FS_10_2x1_0.jpg?itok=9ofWZVt2&c=f211238e2f8d13d405d50007a74ce65e"
+    },
+    {
+      "id": "6dbe607e-d9ed-4732-a965-6086bdf554e5",
+      "date": "2024-09-14T13:00:00",
+      "beach": "Rodeo Beach",
+      "title": "Rodeo Beach Rumble Post-Race Cleanup",
+      "description": "Help clean up after the annual Rodeo Beach Rumble 8k and Half Marathon.",
+      "capacity": 100,
+      "is_ride_provided": true,
+      "image_url": "https://trailrunner.com/wp-content/uploads/gravity_forms/4-75c63697a12d8324ad1a983f2950d143/2016/11/Rodeo-Beach-68.jpg"
+    },
+    {
+      "id": "bac980f9-ef10-4b35-85b6-cc0e831b3153",
+      "date": "2024-08-28T12:00:00",
+      "beach": "Pacifica Beach",
+      "title": "Pacifica Beach Cleanup",
+      "description": "Help clean up the beautiful beach in Pacifica. Join us at the world famous Taco Bell for lunch after!",
+      "capacity": 100,
+      "is_ride_provided": true,
+      "image_url": "https://www.californiabeaches.com/wp-content/uploads/2014/09/bigs-Pacifica-State-Beach-near-san-francisco-CA-71568820-Large-e1512516088862-1000x597.jpg"
+    },
+    {
+      "id": "07b91e9a-bfad-423d-9dd0-3eff8faaa43e",
+      "date": "2024-07-05T07:00:00",
+      "beach": "Ocean Beach",
+      "title": "Ocean Beach 4th of July Cleanup",
+      "description": "Show your patriotism by cleaning up after a beautiful night of fireworks and fun.",
+      "capacity": 500,
+      "is_ride_provided": false,
+      "image_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6a/c5/8c.jpg"
+    }
+  ]
+}
