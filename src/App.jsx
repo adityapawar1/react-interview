@@ -16,13 +16,7 @@ export default function App() {
 
         <p>
           Since 1994, Our City Forest has been the leading nonprofit in Silicon Valley for urban forestry and environmental education.
-        </p>
-
-        <p>
           We believe in the POWER OF TREES to transform homes, communities and cities and the POWER OF PEOPLE to help us achieve this needed transformation.
-        </p>
-
-        <p>
           Help us continue to grow by donating or by becoming a sustaining member.
         </p>
 
