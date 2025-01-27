@@ -39,3 +39,7 @@ main {
   gap: 8px;
   flex-direction: column;
 }
+
+tree-header {
+  margin: 2px;
+}

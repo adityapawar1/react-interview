@@ -2,9 +2,13 @@ import React from "react";
 import Tree from "./components/Tree";
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
+import getTreeList from "./utils/trees";
 import Footer from "./components/Footer";
 
 export default function App() {
+  const trees = getTreeList();
+  let treeCount = 0;
+
   return (
     <main>
       <NavigationBar />
@@ -20,7 +24,6 @@ export default function App() {
           Help us continue to grow by donating or by becoming a sustaining member.
         </p>
 
-
         <div className="tree-list">
           <Tree
             name={"Forest Green Oak"}
@@ -29,6 +32,7 @@ export default function App() {
             }
             dateAdded={"2024-06-23T10:48:07"}
             imageLink={"https://www.svgrepo.com/show/508699/landscape-placeholder.svg"}
+            amountPlanted={100}
           />
 
           <Tree
@@ -38,9 +42,25 @@ export default function App() {
             }
             dateAdded={"2024-06-23T10:48:07"}
             imageLink={"https://www.svgrepo.com/show/508699/landscape-placeholder.svg"}
+            amountPlanted={100}
           />
+
+          {trees.map((tree) => {
+            return (
+              <Tree
+                key={tree.name}
+                name={tree.name}
+                description={tree.description}
+                dateAdded={tree.dateAdded}
+                imageLink={tree.imageLink}
+                amountPlanted={tree.amountPlanted}
+              />
+            )
+          })}
+
         </div>
-        <h3>Tree Inventory</h3>
+
+        <h3 className="tree-header">Tree Inventory</h3>
 
       </div>
       <Footer />
