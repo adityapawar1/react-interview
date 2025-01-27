@@ -3,6 +3,7 @@ import "./Components.css";
 
 export default function Tree(props) {
   const favorited = React.useState(false);
+  const favoritedClass = favorited ? "" : "tree-favorited";
 
   /* Convert date to human readable format */
   // Create new date object, so we can use built in Date functions to convert it to a human readable format
@@ -11,7 +12,7 @@ export default function Tree(props) {
   let humanReadableDate = dateObject.toLocaleString("en-GB");
 
   return (
-    <div className={"tree" + (favorited && "tree-favorited")}>
+    <div className={"tree " + favoritedClass}>
       <img
         className="tree-image"
         src={props.imageLink}
@@ -30,6 +31,7 @@ export default function Tree(props) {
         {/* The date the tree was added to our database */}
         <p>
           <strong>
+            Date Added: {' '}
             {humanReadableDate}
           </strong>
         </p>
