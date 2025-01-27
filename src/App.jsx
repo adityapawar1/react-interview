@@ -1,5 +1,5 @@
 import React from "react";
-import Event from "./components/Event";
+import Tree from "./components/Tree";
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
@@ -20,25 +20,28 @@ export default function App() {
           Help us continue to grow by donating or by becoming a sustaining member.
         </p>
 
-        <h4>Upcoming events near Berkeley, CA</h4>
 
-        <div className="events-list">
-          <Event
-            dateTime={"2024-06-23T10:48:07"}
-            title={"City Planting Day"}
+        <div className="tree-list">
+          <Tree
+            name={"Forest Green Oak"}
             description={
-              "Join us for a day of planting trees in the city."
+              "This is an upright growing, vigorous oak with a strong central leader."
             }
+            dateAdded={"2024-06-23T10:48:07"}
+            imageLink={"https://www.svgrepo.com/show/508699/landscape-placeholder.svg"}
           />
 
-          <Event
-            dateTime={"2024-07-02T09:12:00"}
-            title={"Nursery Tour"}
+          <Tree
+            name={"Frontier Elm"}
             description={
-              "Take a tour of our nursery and learn about the trees we grow."
+              "This hardy, tolerant tree is a good choice for residential landscapes and along city streets."
             }
+            dateAdded={"2024-06-23T10:48:07"}
+            imageLink={"https://www.svgrepo.com/show/508699/landscape-placeholder.svg"}
           />
         </div>
+        <h3>Tree Inventory</h3>
+
       </div>
       <Footer />
     </main>
