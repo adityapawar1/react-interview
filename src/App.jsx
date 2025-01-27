@@ -32,7 +32,6 @@ export default function App() {
             }
             dateAdded={"2024-06-23T10:48:07"}
             imageLink={"https://www.svgrepo.com/show/508699/landscape-placeholder.svg"}
-            amountPlanted={100}
           />
 
           <Tree
@@ -42,7 +41,6 @@ export default function App() {
             }
             dateAdded={"2024-06-23T10:48:07"}
             imageLink={"https://www.svgrepo.com/show/508699/landscape-placeholder.svg"}
-            amountPlanted={100}
           />
 
           {trees.map((tree) => {
@@ -53,7 +51,6 @@ export default function App() {
                 description={tree.description}
                 dateAdded={tree.dateAdded}
                 imageLink={tree.imageLink}
-                amountPlanted={tree.amountPlanted}
               />
             )
           })}
