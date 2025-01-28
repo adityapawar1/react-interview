@@ -24,6 +24,10 @@ export default function App() {
           Help us continue to grow by donating or by becoming a sustaining member.
         </p>
 
+        <div>
+          <button>Filter Planted Trees</button>
+        </div>
+
         <div className="tree-list">
           <Tree
             name={"Forest Green Oak"}
